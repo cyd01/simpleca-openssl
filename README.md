@@ -45,7 +45,7 @@ The iternal AC can be configured by passing some environment variables to the **
 | SIMPLECA_DEFAULTMD    | default signature algorithm                                   | sha256        |
 | SIMPLECA_COUNTRYNAME  | Country name                                                  | FR            |
 | SIMPLECA_STATE        | State                                                         | France        |
-| SIMPLECA_LOCALITY     | Locality                                                      | Vitrolles     |
+| SIMPLECA_LOCALITY     | Locality                                                      | Paris         |
 | SIMPLECA_ORGANIZATION | Organization                                                  | MyOrg         |
 | SIMPLECA_UNIT         | Organization unit                                             | MyUnit        |
 
