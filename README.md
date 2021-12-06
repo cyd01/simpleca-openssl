@@ -43,11 +43,11 @@ The iternal AC can be configured by passing some environment variables to the **
 | SIMPLECA_PASSWORD     | The password of the AC private key                            | -             |
 | SIMPLECA_EXPIRATION   | The number of days before expiration of genrated certificates | 3650          |
 | SIMPLECA_DEFAULTMD    | default signature algorithm                                   | sha256        |
-| SIMPLECA_COUNTRYNAME  | Country name                                                  | FR            |
+| SIMPLECA_COUNTRYNAME  | Country name                                                  | FR            |
 | SIMPLECA_STATE        | State                                                         | France        |
-| SIMPLECA_LOCALITY     | Locality                                                      | Paris         |
+| SIMPLECA_LOCALITY     | Locality                                                      | Paris         |
 | SIMPLECA_ORGANIZATION | Organization                                                  | MyOrg         |
-| SIMPLECA_UNIT         | Organization unit                                             | MyUnit        |
+| SIMPLECA_UNIT         | Organization unit                                             | MyUnit        |
 
 ## How to use it
 
