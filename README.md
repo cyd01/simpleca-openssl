@@ -27,7 +27,7 @@ In order to do it the first thing to create is a Docker volume.
 
 Then the startup command is 
 
-    docker run --rm -d -p 8080:80 -v simpleca_data:/data --name simpleca simplece
+    docker run --rm -d -p 8080:80 -v simpleca_data:/data --name simpleca simpleca
 
 > In this context, the service is accessible on port `8080`.
 

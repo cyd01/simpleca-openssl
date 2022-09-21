@@ -38,6 +38,8 @@ if [ ! -f ${SIMPLECA_DIR}/ca/ca.crt ] ; then
     openssl req -x509 -new -nodes -key ${SIMPLECA_DIR}/ca/ca.key -passin env:SIMPLECA_PASSWORD -sha256 -subj "/C=${SIMPLECA_COUNTRYNAME}/ST=${SIMPLECA_STATE}/L=${SIMPLECA_LOCALITY}/O=${SIMPLECA_ORGANIZATION}/OU=${SIMPLECA_UNIT}/emailAddress=${SIMPLECA_EMAILADDRESS}" -days ${SIMPLECA_EXPIRATION} -out ${SIMPLECA_DIR}/ca/ca.crt -outform PEM
 fi
 cp ${SIMPLECA_DIR}/ca/ca.crt ${SIMPLECA_DIR}/web/ca/ca.crt
+echo "Here is the Certificate Authority certificate"
+cat ${SIMPLECA_DIR}/ca/ca.crt
 
 if [ ! -f ${SIMPLECA_DIR}/ca/ca.db.index ]; then
     echo "Creating ${SIMPLECA_DIR}/ca/ca.db.index file"
